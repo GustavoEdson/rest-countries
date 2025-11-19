@@ -5,6 +5,6 @@ type CardProps = {
   capital: string;
 };
 
-const Card = ({ img, population, region, capital }: CardProps) => {
+export const Card = ({ img, population, region, capital }: CardProps) => {
   return <div>{img}</div>;
 };
