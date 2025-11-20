@@ -3,6 +3,8 @@ import { Card } from "./components/Card";
 import { Input } from "./components/Input";
 import { Nav } from "./components/Nav";
 import { Select } from "./components/Select";
+import { Home } from "./page";
+import { callApi } from "./util/api";
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       <Nav />
       <Input />
       <Select />
+      <Home />
     </>
   );
 }
